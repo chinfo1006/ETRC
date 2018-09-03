@@ -1,0 +1,9 @@
+
+react-native bundle --entry-file index.js --bundle-output ./android/app/src/main/assets/index.android.bundle --platform android --assets-dest ./android/app/src/main/res/ --dev false
+react-native bundle --entry-file index.js --bundle-output ./android/app/src/main/assets/index.android.bundle --platform android --dev false
+
+
+
+react-native bundle --entry-file index.js --platform ios --bundle-output ./ios/main.jsbundle  --assets-dest ./ios --dev false
+react-native bundle --entry-file index.js --platform ios --bundle-output ./ios/main.jsbundle   --dev false
+
